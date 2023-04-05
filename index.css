@@ -1,7 +1,7 @@
 
 .Photo img{
     width: 250px;
-    height: 295px;
+    height: 300px;
     padding: 5px;
     margin: 0px;
     /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 
@@ -53,13 +53,17 @@
      }
      .copyright{
         padding-bottom: 10%;
-        margin-top:650px;
+        margin-top:700px;
      }
      .quote{
         display: flex;
         text-align: center;
         margin-bottom: -30%;
      }
+     a .one, .two, .three, .four{
+        margin-left: 5%;
+     }
+
   }
 .container-fluid{
     max-width: 650px;
