@@ -48,11 +48,17 @@
      }
      .links{
         margin:auto;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 38px;
+        margin-bottom: 38px; 
      }
      .copyright{
         padding-bottom: 10%;
+     }
+     .quote{
+        display: flex;
+        text-align: right;
+        margin-bottom: -30%;
+        color: red;
      }
   }
 .container-fluid{
@@ -171,13 +177,9 @@ body{
  .copyright
   {
     text-decoration: none;
-    margin: auto auto auto auto; 
-
-
 }
 .quote{
-    text-align: right;
-    padding-left: 10%;
+    text-align:right;
     color: #344855 ;
 }
 .center{
