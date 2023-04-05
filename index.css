@@ -53,12 +53,13 @@
      }
      .copyright{
         padding-bottom: 10%;
+        margin-top:600px;
      }
      .quote{
         display: flex;
         text-align: right;
         margin-bottom: -30%;
-        color: red;
+        
      }
   }
 .container-fluid{
