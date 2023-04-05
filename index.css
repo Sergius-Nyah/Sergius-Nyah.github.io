@@ -26,7 +26,35 @@
     justify-content: space-between;
     
 }
-.container{
+@media only screen and (max-width: 600px) {
+    .container-head {
+        display: flex; 
+        flex-direction:column;
+         justify-content: space-between;
+         padding-top: -15px;
+         align-items: center;
+         
+    }
+    .container-fluid{
+        padding: 5%;
+        
+    }
+    .logo{
+        margin-bottom: -82px;
+        margin-left: -10%;
+     }
+     .Intro{
+        text-align: center;
+     }
+     .links{
+        justify-content: space-between;
+        margin-left: 0% -100px 0% -100px;
+     }
+     .copyright{
+        padding-bottom: 10%;
+     }
+  }
+.container-fluid{
     max-width: 650px;
     padding-top: -50px;
     margin: 0px auto ;
@@ -101,7 +129,6 @@ body{
     font-weight: bold;
     margin-top: 1cm;
 }
-
 .logo-mark{
     margin: 0cm 1cm;
 }
